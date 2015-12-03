@@ -1,0 +1,35 @@
+#all-app {
+    padding: 2% 40%;
+}
+
+#new-todo{
+    width: 75%;
+}
+
+#create-new-todo{
+    margin-left: 2%;
+    width: 20%;
+}
+
+.planned:hover, .completed:hover {
+    width: 101% ;
+    cursor: pointer;
+}
+
+.planned, .completed {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.planned {
+    background-color: #fab32e;
+
+}
+
+.completed {
+    background-color: #54fa26;
+}
+
+.deleted {
+    display: none;
+}
